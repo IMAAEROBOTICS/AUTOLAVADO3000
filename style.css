@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+img {
+  align-items: center;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: cornflowerblue;
+  padding: 20px;
+
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+div.container h3 {
+  color: #444;
+  font-size: 24px;
+  font-weight: 300;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.color-select {
+  width: 100vw;
+  height: 50px;
+  background-color: rgb(242, 255, 168);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.color-select div {
+  background: rgb(6, 147, 207);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 30px;
+  cursor: pointer;    
+}
+
+.color-select #yellow {
+  background: rgb(207, 177, 6);
+}
+
+.color-select #black {
+  background: rgb(68, 123, 177);
+}
+
+.color-select #blue {
+  background: rgb(34, 70, 203)
+} 
+.color-select #gray {
+  background: rgb(174, 207, 6);
+} 
+body {
+    background-color: rgb(241, 244, 249);
+  }
+  
+  h1 {
+      float: center;
+      color: rgb(237, 237, 237);
+      font-family: fantasy;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: cornflowerblue;
+  }
+  
+  h2 {
+  font-family: sans-serif;
+    color: saddlebrown;
+  }
+  
+  img {
+    
+    max-width: 90%;
+    height: auto;
+    
+  }
+  button {
+    border: 0;
+    background-image: linear-gradient(
+        150 deg,
+        #950095,
+        #09f,
+        #0df
+    );
+    border-radius: 8px;
+    color:blueviolet;
+    display: flex;
+    font-size: 18px;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;
+
+
+  }
+
+  button span {
+    background-color:rgb(174, 207, 6);
+    padding: 16px 24px;
+    border-radius: 6px;
+    transition: .3s;
+
+  }
+
+  button:hover span {
+    background: none;
+
+  }
+  button:active {
+    transform: scale(0.9);
+  }
+ 
+  p {
+      text-align: left;
+      font-family: fantasy;
+      font-size: 14px;
+  }
